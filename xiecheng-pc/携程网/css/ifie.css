@@ -1,0 +1,342 @@
+.search_ico .magn{
+    *overflow:hidden;
+}
+.sites .find{
+    *overflow:hidden;
+}
+.language .phone{
+    *overflow:hidden;
+}
+.language .wechat{
+    *overflow:hidden;
+}
+.head_nav .head_nav_main{
+    *display:inline;
+    *zoom:1;
+}
+.head_nav_main .nav_line{
+    *overflow:hidden;
+}
+.locat .union{
+    *overflow:hidden;
+}
+.nav_list .bg{
+    *overflow:hidden;
+}
+.land .register{
+    *display:block;
+}
+.register .bg{
+    *overflow:hidden;
+}
+.register .land_line{
+    *overflow:hidden;
+}
+.land  .mine{
+    *display:block;
+}
+.my .bg{
+    *overflow:hidden;
+}
+.search_head a .bg{
+    *overflow:hidden;
+}
+.btn_wrap a{
+    *overflow:hidden;
+}
+.goal input{
+    *width:376px;
+}
+.goal .goal_info{
+    *width:43px;
+}
+.check_in input{
+    *width:136px;
+}
+.check_out input{
+    *width:136px;
+}
+.keyword input{
+    *width:367px;
+}
+.check_out{
+    *margin:0;
+}
+.list_search{
+    *padding:0;
+}
+.list_search .search_info{
+    *width:438px;
+}
+.sale_head .fr .bg{
+    *overflow: hidden;
+}
+.sale_more .bg{
+    *overflow: hidden;
+}
+.hotel_more .bg{
+    *overflow: hidden;
+}
+.hotel_detail .hotel_list{
+    *margin-right:-10px;
+}
+.ticket_head .fr .bg{
+    *overflow: hidden;
+}
+.ticket_more .fr .bg{
+    *overflow:hidden;
+}
+.newyork .bg{
+    *overflow: hidden;
+}
+.car_head .fl{
+    *overflow: hidden;
+}
+.car_head .internation .bg{
+    *overflow:hidden;
+}
+.car_type_head .fl .bg{
+    *overflow:hidden;
+}
+.car_type_head .fr .bg{
+    *overflow: hidden;
+}
+.car_pic .car_list{
+    *display: inline;
+}
+.road .fr .rise{
+    *overflow:hidden;
+}
+.car_pic .car_list{
+    *margin-right: 5px;
+}
+.activity .fl{
+    *overflow:hidden;
+}
+.activity dd .tokyo{
+    *display: inline;
+}
+.why_item .heart_title{
+    *width:197px;
+}
+.why_item .heart_title_colors{
+    *width:197px;
+}
+
+.web_list a .off{
+    *overflow: hidden;
+}
+.point .next{
+    *overflow: hidden;
+}
+.overseas .bg{
+    *overflow: hidden;
+}
+.car_rent .play_list .car_info{
+    *white-space: nowrap;
+}
+.car_rent .play_list .car_line{
+    *overflow: hidden;
+}
+.play_list .car_info .hot_ico{
+    *overflow: hidden;
+}
+.list_nav .list_each{
+    *vertical-align: top;
+}
+.mine .my{
+    *overflow: hidden;
+}
+.clearfix{
+    *zoom:1;
+}
+.between .hot_tel{
+    *height:36px;
+}
+/*修改另加*/
+.through .bg{
+    *overflow: hidden;
+}
+.sale_head_title .other .bg{
+    *overflow:hidden;
+}
+.hotel_head_list .fl .bg{
+    *overflow: hidden;
+}
+.ticket_head .ticket_head_list .bg{
+    *overflow: hidden;
+}
+.hotel .hotel_head_list{
+    *overflow: hidden;
+}
+.sale_head_title .other_more .other_moreico{
+    *overflow: hidden;
+}
+.the_pic .sale_text{
+    *background-color: #000;
+    *filter:alpha(opacity=70);
+}
+.sale_right .fl .backdrop{
+    *background-color: #000;
+    *filter:alpha(opacity=70);
+}
+.hotel_item .fl .wall{
+    *background-color: #000;
+    *filter:alpha(opacity=70);
+}
+.hotel_ad .fl .ad_bg{
+    *background-color: #000;
+    *filter:alpha(opacity=70);
+}
+.chosen .chosen_list{
+    *background-color: #000;
+    *filter:alpha(opacity=70);
+}
+.search .search_ico{
+    *overflow: hidden;
+}
+/*link*/
+.language .general .earth_ico{
+    *overflow: hidden;
+}
+.language .general .under{
+    *overflow: hidden;
+}
+.language .general .arrow{
+    *overflow: hidden;
+}
+.language .phone_ico{
+    *overflow: hidden;
+}
+.language .wechat{
+    *overflow: hidden;
+}
+.head_nav .nav_info .under_ico{
+    *overflow: hidden;
+}
+.head_nav .nav_info .nav_ico{
+    *overflow: hidden;
+}
+.login .land .my{
+    *overflow: hidden;
+}
+.login .mine a .mine_more{
+    *overflow: hidden;
+}
+.subnav_info .special{
+    *overflow: hidden;
+}
+.login .land .mine_line{
+    *overflow: hidden;
+}
+.order .pro{
+    *overflow: hidden;
+}
+.internal .internal_info .plane{
+    *overflow:hidden;
+}
+.discover .discover_info .find_ico{
+    *overflow: hidden;
+}
+.voyage .voyage_info{
+    *height:35px;
+    *padding-top:13px;
+}
+.distance .distance_list{
+    *vertical-align: top;
+}
+.belt .child_info .exclam{
+    *overflow: hidden;
+}
+.high_search .high_ico{
+    *overflow: hidden;
+}
+.discover .the_new{
+    *overflow: hidden;
+}
+.look .big_earth{
+    *overflow: hidden;
+}
+.look .pro{
+    *overflow: hidden;
+}
+.kit_sub .clock{
+    *overflow: hidden;
+}
+.small .small_ico{
+    *overflow: hidden;
+}
+.chart .small{
+    *background-color: #000;
+    *filter:alpha(opacity=30);
+}
+.dot a{
+    *overflow: hidden;
+}
+.the_pre .pre_ico{
+    *overflow: hidden;
+}
+.the_next .next_ico{
+    *overflow: hidden;
+}
+.firm .firm_ico{
+    *overflow: hidden;
+}
+.firm_info .the_price{
+    *width:85px;
+}
+.guess_like .guess_ico{
+    *overflow: hidden;
+}
+.city_pic .city_bg{
+    *background-color: #000;
+    *filter:alpha(opacity=50);
+}
+.maybe_list .stripe{
+    *overflow: hidden;
+}
+.ad_pic .ad_info .bext{
+    *overflow: hidden;
+}
+.more_item .air_info{
+    *overflow: hidden;
+    *white-space: nowrap;
+}
+.friend_link .foot_line{
+    *overflow: hidden;
+}
+/*酒店列表*/
+.box_head .bed_ico{
+    *overflow: hidden;
+}
+.box_content .search_btn{
+    *white-space: nowrap;
+}
+.find_list .update{
+    *width:190px;
+}
+.open_btn .open{
+    *overflow: hidden;
+}
+.integral_img .integral_bg{
+    *background-color: #000;
+    *filter:alpha(opacity=30);
+}
+.edit_text .edit_bg{
+    *background-color: #000;
+    *filter:alpha(opacity=30);
+}
+.offer_pic .pic_bg{
+    *background-color: #000;
+    *filter:alpha(opacity=30);
+}
+.land_nav_info .land_ico{
+    *overflow: hidden;
+}
+.land_nav_more .more_ico{
+    *overflow: hidden;
+}
+.select_nav .select_info{
+    *background-color: #000;
+    *filter:alpha(opacity=40);
+}

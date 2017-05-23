@@ -1,0 +1,21 @@
+body,h1,h3,h4,p,dt,form{
+    margin:0;
+}
+input{
+    padding:0;
+    border:0;
+}
+a{
+    text-decoration:none;
+}
+ul,dl{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+li{
+    margin:0;
+}
+dd{
+    margin-left:0;
+}

@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>酒店-hotel</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/tool.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/list.css">
+    <script src="js/html5shiv.js"></script>
+    <!-- <script src="js/firebug-lite/build/firebug-lite.js"></script> -->
+    <!--[if lt IE 8]>
+        <link rel="stylesheet" href="css/ifie.css" />
+    <![endif]-->
+    <!--[if IE 6]>
+        <script src="js/DD_belatedPNG_0.0.8a.js"></script>
+        <script>
+           DD_belatedPNG.fix('.bg'); 
+        </script>
+    <![endif]-->
+</head>
+<body>
+    <header class="head">
+        <div class="top">
+            <h1 class="logo bg fl">
+                <a href="index.html" target="_blank" class="fl">携程网</a>
+            </h1>
+            <div class="language fr">
+                <a href="" class="general fl"><i class="earth_ico bg fl"></i><span class="general_info fl">Global Sites</span><i class="under bg fl"></i></a>
+                <span class="language_line fl"></span>
+                <a href="" class="custom fl">客服中心</a>
+                <span class="language_line fl"></span>
+                <a href="" class="general fl"><span class="general_info fl">国内：<span class="general_color">400-830-6666</span></span><i class="arrow bg fl"></i></a>
+                <a href="" class="phone_ico bg fl"></a>
+                <a href="" class="wechat bg fl"></a>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="topnav">
+                <div class="nav_bar">
+                    <nav class="head_nav fl">
+                        <a href="index.html" target="_blank" class="nav_info the_nav fl">首页</a>
+                        <span class="nav_line fl"></span>
+                        <a href="" class="nav_info the_now fl">酒店<i class="under_ico bg"></i><i class="nav_ico bg"></i></a>
+                        <span class="nav_line fl"></span>
+                        <a href="" class="nav_info fl">旅游<i class="under_ico bg"></i><i class="nav_ico bg"></i></a>
+                        <span class="nav_line fl"></span>
+                        <a href="link.html" target="_blank" class="nav_info fl">机票<i class="under_ico bg"></i><i class="nav_ico bg"></i></a>
+                        <span class="nav_line fl"></span>
+                        <a href="" class="nav_info fl">火车<i class="under_ico bg"></i><i class="nav_ico bg"></i></a>
+                        <span class="nav_line fl"></span>
+                        <a href="" class="nav_info fl">汽车票<i class="under_ico bg"></i><i class="nav_ico bg"></i></a>
+                        <span class="nav_line fl"></span>
+                        <a href="" class="nav_info fl">用车<i class="under_ico bg"></i><i class="nav_ico bg"></i></a>
+                        <span class="nav_line fl"></span>
+                        <a href="" class="nav_info fl">门票<i class="under_ico bg"></i><i class="nav_ico bg"></i></a>
+                        <span class="nav_line fl"></span>
+                        <a href="" class="nav_info fl">团购<i class="under_ico bg"></i><i class="nav_ico bg"></i></a>
+                        <span class="nav_line fl"></span>
+                        <a href="" class="nav_info fl">攻略<i class="under_ico bg"></i><i class="nav_ico bg"></i></a>
+                        <span class="nav_line fl"></span>
+                        <a href="" class="nav_info fl">全球购<i class="under_ico bg"></i><i class="nav_ico bg"></i></a>
+                        <span class="nav_line fl"></span>
+                        <a href="" class="nav_info fl">礼品卡<i class="under_ico bg"></i><i class="nav_ico bg"></i></a>
+                        <span class="nav_line fl"></span>
+                        <a href="" class="nav_info fl">商旅<i class="under_ico bg"></i><i class="nav_ico bg"></i></a>
+                        <span class="nav_line fl"></span>
+                        <a href="" class="nav_info the_nav fl">邮轮<i class="under_ico bg"></i></a>
+                        <span class="nav_line fl"></span>
+                        <a href="" class="nav_info the_nav fl">天海邮轮<i class="under_ico bg"></i></a>
+                        <span class="nav_line fl"></span>
+                        <a href="" class="nav_info fl">更多<i class="nav_ico bg"></i></a>
+                    </nav>
+                    <div class="login fr">
+                        <div class="land clearfix">
+                            <i class="my bg fl"></i>
+                            <a href="" class="fl">登陆</a>
+                            <span class="mine_line fl"></span>
+                            <a href="" class="fl">注册</a>
+                        </div>
+                        <div class="mine clearfix">
+                            <a href="" class="fl">我的携程<i class="mine_more bg fl"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subnav">
+                <nav class="subnav_list fl">
+                    <a href="" class="subnav_info the_now fl">国内酒店</a>
+                    <span class="subnav_line fl"></span>
+                    <a href="" class="subnav_info fl">海外酒店</a>
+                    <span class="subnav_line fl"></span>
+                    <a href="" class="subnav_info fl">海外民宿+短租</a>
+                    <span class="subnav_line fl"></span>
+                    <a href="" class="subnav_info fl">团购</a>
+                    <span class="subnav_line fl"></span>
+                    <a href="" class="subnav_info fl">特价酒店</a>
+                    <span class="subnav_line fl"></span>
+                    <a href="" class="subnav_info fl">途家公寓</a>
+                    <span class="subnav_line fl"></span>
+                    <a href="" class="subnav_info fl">酒店+景点</a>
+                    <span class="subnav_line fl"></span>
+                    <a href="" class="subnav_info fl">客栈民宿</a>
+                    <span class="subnav_line fl"></span>
+                    <a href="" class="subnav_info fl">会场+团队房</a>
+                </nav>
+                <a href="" class="order fr"><i class="plane bg"></i>酒店订单<i class="pro bg"></i></a>
+            </div>
+        </div>
+    </header>
+    <!--内容-->
+    <section class="content">
+        <div class="page_main">
+            <div class="main_left fl">
+                <div class="search_box">
+                    <h3 class="box_head">
+                        <i class="bed_ico bg"></i>
+                        <span class="box_title">搜索国内酒店</span>
+                    </h3>
+                    <form action="" class="box_content">
+                        <div class="hotel_type">
+                            <lable class="type_list">
+                                <input type="radio" name="type" value="hotel" checked>酒店
+                            </lable>
+                            <lable class="type_list">
+                                <input type="radio" name="type" value="hotel_spot">酒店+景点
+                            </lable>
+                            <lable class="type_list">
+                                <input type="radio" name="type" value="inn">客栈民宿
+                            </lable>
+                            <lable class="type_list">
+                                <input type="radio" name="type" value="special_hotel">特价酒店
+                            </lable>
+                        </div>
+                        <div class="temini">
+                            <span class="temini_head fl mr10">目的地</span>
+                            <input type="text" value="中文/拼音" class="text_info fl pl4">
+                        </div>
+                        <div class="check_in mt13">
+                            <span class="check_info fl mr10">入住日期</span>
+                            <input type="text" value="2016-11-29" class="check_in_box fl pl4">
+                        </div>
+                        <div class="check_in mt13">
+                            <span class="check_info fl mr10">退房日期</span>
+                            <input type="text" value="2016-11-30" class="check_in_box fl pl4">
+                        </div>
+                        <div class="hotel_level mt13">
+                            <span class="level_head fl mr10">酒店级别</span>
+                            <select class="level_list fl">
+                                <option>不限</option>
+                                <option>五星级/豪华</option>
+                                <option>四星级/高档</option>
+                                <option>三星级/舒适</option>
+                                <option>二星级以下/经济</option>
+                            </select>
+                        </div>
+                        <div class="keyword mt13">
+                            <span class="key_head fl mr10">关键词</span>
+                            <input type="text" value="（选填）酒店名/地标/商圈" class="key_info fl pl4">
+                        </div>
+                        <a href="" class="search_btn fl">搜索</a>
+                    </form>
+                </div>
+                <div class="promo">
+                    <div class="trust">
+                        <div class="trust_service">
+                            <i class="serv_ico bg fl"></i>
+                            <a href="" class="serv_title fl">放心的服务</a>
+                            <a href="" class="serv_info fl">领先的服务标准 独创的保障体系</a>
+                        </div>
+                        <div class="trust_price">
+                            <i class="price_ico bg fl mr10"></i>
+                            <a href="" class="price_title fl">放心的价格</a>
+                            <a href="" class="price_info fl">具竞争力的价格 无任何隐形费用</a>
+                        </div>
+                    </div>
+                    <div class="find">
+                        <h4 class="find_title">发现·酒店期刊</h4>
+                        <div class="find_list">
+                            <a href="" class="find_pic fl"><img src="img/t1.jpg"></a>
+                            <span class="pic_title fl">2016携程口碑榜</span>
+                            <span class="most_popular fl">华东最受欢迎酒店</span>
+                            <span class="update fl">更新：2016.11.24</span>
+                        </div>
+                        <div class="open_btn">
+                            <a href="" class="open">开启发现之旅<i class="open_ico bg fr"></i></a>
+                        </div>
+                    </div>
+                    <div class="integral">
+                        <a href="" class="integral_img fl">
+                            <img src="img/ad1.jpg">
+                            <span class="integral_bg fl">
+                                <span class="integral_text"><i class="small_ico bg"></i>广告</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="offers">
+                    <h3 class="offers_head"><i class="sale_ico bg"></i>促销特惠</h3>
+                    <div class="edit">
+                        <a href="" class="edit_text fl">
+                            <img src="img/edit.jpg">
+                            <span class="edit_bg fl">
+                                <span class="edit_ad">广告<i class="edit_ico bg"></i></span>
+                            </span>
+                        </a>
+                    </div>
+                    <ul class="offer_item">
+                        <li class="offer_list mt14">
+                            <a href="" class="offer_pic fl">
+                                <img src="img/list1.jpg">
+                                <span class="pic_bg fl">
+                                    <span class="pic_text">广告<i class="small_ico bg"></i></span>
+                                </span>
+                            </a>
+                            <a href="" class="offer_info fl">
+                                <span class="air fl">空气清新</span>
+                                <span class="mate fl">享单独配套空气净化器</span>
+                            </a>
+                        </li>
+                        <li class="offer_list mt14">
+                            <a href="" class="offer_pic fl">
+                                <img src="img/list1.jpg">
+                                <span class="pic_bg fl">
+                                    <span class="pic_text">广告<i class="small_ico bg"></i></span>
+                                </span>
+                            </a>
+                            <a href="" class="offer_info fl">
+                                <span class="air fl">空气清新</span>
+                                <span class="mate fl">享单独配套空气净化器</span>
+                            </a>
+                        </li>
+                        <li class="offer_list mt14">
+                            <a href="" class="offer_pic fl">
+                                <img src="img/list1.jpg">
+                                <span class="pic_bg fl">
+                                    <span class="pic_text">广告<i class="small_ico bg"></i></span>
+                                </span>
+                            </a>
+                            <a href="" class="offer_info fl">
+                                <span class="air fl">空气清新</span>
+                                <span class="mate fl">享单独配套空气净化器</span>
+                            </a>
+                        </li>
+                        <li class="offer_list mt14">
+                            <a href="" class="offer_pic fl">
+                                <img src="img/list1.jpg">
+                                <span class="pic_bg fl">
+                                    <span class="pic_text">广告<i class="small_ico bg"></i></span>
+                                </span>
+                            </a>
+                            <a href="" class="offer_info fl">
+                                <span class="air fl">空气清新</span>
+                                <span class="mate fl">享单独配套空气净化器</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="join">
+                        <a href="" class="join_info fl mt20"><img src="img/join1.jpg"></a>
+                        <a href="" class="join_info fl mt20"><img src="img/join2.jpg"></a>
+                        <a href="" class="join_info fl mt20"><img src="img/join3.jpg"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="main_right fr">
+                <div class="carousel">
+                    <a href="" class="show_pic fl">
+                        <img src="img/show_pic1.jpg">
+                        <span class="pic_bg fl">
+                            <span class="pic_text"><i class="pic_ico bg"></i>广告</span>
+                        </span>
+                    </a>
+                    <nav class="pot mr8">
+                        <a href="" class="pot_list fl ml10"></a>
+                        <a href="" class="pot_list color fl ml10"></a>
+                        <a href="" class="pot_list fl ml10"></a>
+                        <a href="" class="pot_list fl ml10"></a>
+                        <a href="" class="pot_list fl ml10"></a>
+                        <a href="" class="pot_list fl ml10"></a>
+                        <a href="" class="pot_list fl ml10"></a>
+                        <a href="" class="pot_list fl ml10"></a>
+                    </nav>
+                </div>
+                <div class="landmark">
+                    <header class="land_head">
+                        <h3 class="land_title fl">城市地标周边酒店</h3>
+                        <nav class="land_nav fl">
+                            <a href="" class="land_nav_info now fl">北京<i class="land_ico bg"></i></a>
+                            <a href="" class="land_nav_info fl">上海<i class="land_ico bg"></i></a>
+                            <a href="" class="land_nav_info fl">广州<i class="land_ico bg"></i></a>
+                            <a href="" class="land_nav_info fl">成都<i class="land_ico bg"></i></a>
+                            <a href="" class="land_nav_info fl">深圳<i class="land_ico bg"></i></a>
+                            <a href="" class="land_nav_info fl">杭州<i class="land_ico bg"></i></a>
+                            <a href="" class="land_nav_more fl">更多<i class="more_ico bg"></i></a>
+                        </nav>
+                        <a href="" class="land_all fr">全部地标<i class="all_arrow bg"></i></a>
+                    </header>
+                    <div class="land_content">
+                        <div class="theme">
+                            <span class="theme_head fl">主题地标<i class="small_ico bg"></i></span>
+                            <nav class="theme_nav fl">
+                                <a href="" class="theme_list fl"><i class="right_ico bg"></i>温泉<i class="theme_ico one bg"></i></a>
+                                <a href="" class="theme_list fl">滑雪<i class="theme_ico one bg"></i></a>
+                                <a href="" class="theme_list fl">游乐园<i class="theme_ico one bg"></i></a>
+                                <a href="" class="theme_list fl">景区<i class="theme_ico one bg"></i></a>
+                                <a href="" class="theme_list fl">公务员考试<i class="theme_ico two bg"></i></a>
+                                <a href="" class="theme_list fl">地铁站<i class="theme_ico three bg"></i></a>
+                                <a href="" class="theme_list fl">商业区<i class="theme_ico four bg"></i></a>
+                            </nav>
+                            <a href="" class="theme_search fl">搜索地标<i class="five bg"></i></a>
+                        </div>
+                        <div class="select mt20">
+                            <a href="" class="select_pic fl">
+                                <img src="img/select.jpg">
+                            </a>
+                            <nav class="select_nav fl">
+                                <a href="" class="select_info fl">悦享酒店5折起<i class="left_ico bg"></i></a>
+                                <a href="" class="select_info fl">新开业酒店嘉年华<i class="left_ico bg"></i></a>
+                                <a href="" class="select_info fl">热门目的地<i class="left_ico bg"></i></a>
+                                <a href="" class="select_info now fl">精品酒店<i class="left_ico small_ico bg"></i></a>
+                                <a href="" class="select_info none_bor fl">亲子酒店特卖5折起<i class="left_ico bg"></i></a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="hot_hotel">
+                    <header class="hotel_title">
+                        <h3 class="hotel_head fl">热门酒店</h3>
+                        <nav class="hotel_nav fl">
+                            <a href="" class="nav_info fl mr20"><i class="top_ico now bg"></i>北京</a>
+                            <a href="" class="nav_info fl mr20"><i class="top_ico bg"></i>上海</a>
+                            <a href="" class="nav_info fl mr20"><i class="top_ico bg"></i>广州</a>
+                            <a href="" class="nav_info fl mr20"><i class="top_ico bg"></i>深圳</a>
+                            <a href="" class="nav_info fl mr20"><i class="top_ico bg"></i>成都</a>
+                            <a href="" class="nav_info fl mr20"><i class="top_ico bg"></i>杭州</a>
+                            <a href="" class="nav_info fl mr20"><i class="top_ico bg"></i>长春</a>
+                            <a href="" class="nav_info fl mr20"><i class="more_ico bg"></i>更多</a>
+                        </nav>
+                        <i class="theme_ico fr"></i>
+                    </header>
+                    <ul class="hotel_list mt20 clearfix">
+                        <li class="hotel_list fl">
+                            <div class="hotel_pic fl mr10">
+                                <a href="" class="show_pic fl">
+                                    <img src="img/hotel.jpg">
+                                </a>
+                            </div>
+                            <div class="hotel_detail fl">
+                                <div class="hotel_name">
+                                    <i class="small_web bg mr10 fl"></i>
+                                    <a href="" class="hotel_name_info mr19 fl">桔子水晶酒店(北京酒仙桥店)</a>
+                                    <span class="star_level fl">
+                                        <i class="star_ico fl bg"></i>
+                                        <i class="star_ico fl bg"></i>
+                                        <i class="star_ico fl bg"></i>
+                                        <i class="star_ico fl bg"></i>
+                                    </span>
+                                </div>
+                                <div class="area mt16">
+                                    <a href="" class="fl">望京、酒仙桥、798地区</a>
+                                    <a href="" class="fl">朝阳区</a>
+                                </div>
+                                <div class="score mt11">
+                                    <a href="" class="score_info fl">4.8分</a>
+                                    <span class="score_line fl"></span>
+                                    <a href="" class="score_text fl">来自3631人点评</a>
+                                </div>
+                                <div class="review mt15">“还不错很干净”</div>
+                            </div>
+                            <div class="hotel_price fr">
+                                <div class="price_info">
+                                    <span class="rmb fl">￥</span>
+                                    <span class="jiage fl">569</span>
+                                    <span class="qi fl">起</span>
+                                </div>
+                                <div class="destine mt20">最新预定：1小时前</div>
+                            </div>
+                        </li>
+                        <li class="hotel_list fl">
+                            <div class="hotel_pic fl mr10">
+                                <a href="" class="show_pic fl">
+                                    <img src="img/hotel1.jpg">
+                                </a>
+                            </div>
+                            <div class="hotel_detail fl">
+                                <div class="hotel_name">
+                                    <i class="small_web bg mr10 fl"></i>
+                                    <a href="" class="hotel_name_info mr19 fl">桔子水晶酒店(北京建国门店)</a>
+                                    <span class="star_level fl">
+                                        <i class="star_ico fl bg"></i>
+                                        <i class="star_ico fl bg"></i>
+                                        <i class="star_ico fl bg"></i>
+                                        <i class="star_ico fl bg"></i>
+                                    </span>
+                                </div>
+                                <div class="area mt16">
+                                    <a href="" class="fl">北京站、建国门地区</a>
+                                    <a href="" class="fl">朝阳区</a>
+                                </div>
+                                <div class="score mt11">
+                                    <a href="" class="score_info fl">4.8分</a>
+                                    <span class="score_line fl"></span>
+                                    <a href="" class="score_text fl">来自5309人点评</a>
+                                </div>
+                                <div class="review mt15">“酒店环境好卫生干净早餐也不错橘子精选大床amy服务贴心”</div>
+                            </div>
+                            <div class="hotel_price fr">
+                                <div class="price_info">
+                                    <span class="rmb fl">￥</span>
+                                    <span class="jiage fl">619</span>
+                                    <span class="qi fl">起</span>
+                                </div>
+                                <div class="destine mt20">最新预定：2小时前</div>
+                            </div>
+                        </li>
+                        <li class="hotel_list fl">
+                            <div class="hotel_pic fl mr10">
+                                <a href="" class="show_pic fl">
+                                    <img src="img/hotel2.jpg">
+                                </a>
+                            </div>
+                            <div class="hotel_detail fl">
+                                <div class="hotel_name">
+                                    <a href="" class="hotel_name_info mr19 fl">北京格兰云天国际酒店</a>
+                                    <span class="star_level fl">
+                                        <i class="star_ico fl bg"></i>
+                                        <i class="star_ico fl bg"></i>
+                                        <i class="star_ico fl bg"></i>
+                                        <i class="star_ico fl bg"></i>
+                                        <i class="star_ico first fl bg"></i>
+                                    </span>
+                                </div>
+                                <div class="area mt16">
+                                    <a href="" class="fl">亦庄地区</a>
+                                    <a href="" class="fl">大兴区</a>
+                                </div>
+                                <div class="score mt11">
+                                    <a href="" class="score_info fl">4.6分</a>
+                                    <span class="score_line fl"></span>
+                                    <a href="" class="score_text fl">来自70人点评</a>
+                                </div>
+                                <div class="review mt15">“非常喜欢！”</div>
+                            </div>
+                            <div class="hotel_price fr">
+                                <div class="price_info">
+                                    <span class="rmb fl">￥</span>
+                                    <span class="jiage fl">567</span>
+                                    <span class="qi fl">起</span>
+                                </div>
+                                <div class="destine mt20">最新预定：1小时前</div>
+                            </div>
+                        </li>
+                        <li class="hotel_list fl">
+                            <div class="hotel_pic fl mr10">
+                                <a href="" class="show_pic fl">
+                                    <img src="img/hotel3.jpg">
+                                </a>
+                            </div>
+                            <div class="hotel_detail fl">
+                                <div class="hotel_name">
+                                    <i class="small_web one bg mr10 fl"></i>
+                                    <a href="" class="hotel_name_info mr19 fl">北京喜来登长城饭店</a>
+                                    <span class="star_level fl">
+                                        <i class="star_ico1 fl bg"></i>
+                                        <i class="star_ico1 fl bg"></i>
+                                        <i class="star_ico1 fl bg"></i>
+                                        <i class="star_ico1 fl bg"></i>
+                                        <i class="star_ico1 fl bg"></i>
+                                    </span>
+                                </div>
+                                <div class="area mt16">
+                                    <a href="" class="fl">燕莎、三里屯商业区</a>
+                                    <a href="" class="fl">东直门、工体、雍和宫地区</a>
+                                </div>
+                                <div class="score mt11">
+                                    <a href="" class="score_info fl">4.1分</a>
+                                    <span class="score_line fl"></span>
+                                    <a href="" class="score_text fl">来自6120人点评</a>
+                                </div>
+                                <div class="review mt15">“卫生条件好、交通便利”</div>
+                            </div>
+                            <div class="hotel_price fr">
+                                <div class="price_info">
+                                    <span class="rmb fl">￥</span>
+                                    <span class="jiage fl">556</span>
+                                    <span class="qi fl">起</span>
+                                </div>
+                                <div class="destine mt20">最新预定：2小时前</div>
+                            </div>
+                        </li>
+                        <li class="hotel_list fl">
+                            <div class="hotel_pic fl mr10">
+                                <a href="" class="show_pic fl">
+                                    <img src="img/hotel4.jpg">
+                                </a>
+                            </div>
+                            <div class="hotel_detail fl">
+                                <div class="hotel_name">
+                                    <i class="small_web two bg mr10 fl"></i>
+                                    <a href="" class="hotel_name_info mr19 fl">北京新桥诺富特饭店</a>
+                                    <span class="star_level fl">
+                                        <i class="star_ico1 fl bg"></i>
+                                        <i class="star_ico1 fl bg"></i>
+                                        <i class="star_ico1 fl bg"></i>
+                                        <i class="star_ico1 fl bg"></i>
+                                    </span>
+                                </div>
+                                <div class="area mt16">
+                                    <a href="" class="fl">天安门、王府井地区</a>
+                                    <a href="" class="fl">东城区</a>
+                                </div>
+                                <div class="score mt11">
+                                    <a href="" class="score_info fl">4.4分</a>
+                                    <span class="score_line fl"></span>
+                                    <a href="" class="score_text fl">来自13771人点评</a>
+                                </div>
+                                <div class="review mt15">“非常不错”</div>
+                            </div>
+                            <div class="hotel_price fr">
+                                <div class="price_info">
+                                    <span class="rmb fl">￥</span>
+                                    <span class="jiage fl">452</span>
+                                    <span class="qi fl">起</span>
+                                </div>
+                                <div class="destine mt20">最新预定：2小时前</div>
+                            </div>
+                        </li>
+                        <li class="hotel_list fl">
+                            <div class="hotel_pic fl mr10">
+                                <a href="" class="show_pic fl">
+                                    <img src="img/hotel5.jpg">
+                                </a>
+                            </div>
+                            <div class="hotel_detail fl">
+                                <div class="hotel_name">
+                                    <i class="small_web one bg mr10 fl"></i>
+                                    <a href="" class="hotel_name_info mr19 fl">北京崇文门饭店</a>
+                                    <span class="star_level fl">
+                                        <i class="star_ico1 fl bg"></i>
+                                        <i class="star_ico1 fl bg"></i>
+                                        <i class="star_ico1 fl bg"></i>
+                                    </span>
+                                </div>
+                                <div class="area mt16">
+                                    <a href="" class="fl">前门、崇文门商贸区</a>
+                                    <a href="" class="fl">东城区</a>
+                                </div>
+                                <div class="score mt11">
+                                    <a href="" class="score_info fl">4.4分</a>
+                                    <span class="score_line fl"></span>
+                                    <a href="" class="score_text fl">来自7777人点评</a>
+                                </div>
+                                <div class="review mt15">“周围商圈成熟，就在地铁口。没含早饭，但周边5分钟就是小区，种类也不少。就是年初一年初二几天吃了麦当劳。”</div>
+                            </div>
+                            <div class="hotel_price fr">
+                                <div class="price_info">
+                                    <span class="rmb fl">￥</span>
+                                    <span class="jiage fl">464</span>
+                                    <span class="qi fl">起</span>
+                                </div>
+                                <div class="destine mt20">最新预定：2小时前</div>
+                            </div>
+                        </li>
+                        <li class="hotel_list fl">
+                            <div class="hotel_pic fl mr10">
+                                <a href="" class="show_pic fl">
+                                    <img src="img/hotel6.jpg">
+                                </a>
+                            </div>
+                            <div class="hotel_detail fl">
+                                <div class="hotel_name">
+                                    <i class="small_web bg mr10 fl"></i>
+                                    <a href="" class="hotel_name_info mr19 fl">桔子酒店·精选（北京十里河店）</a>
+                                    <span class="star_level fl">
+                                        <i class="star_ico fl bg"></i>
+                                        <i class="star_ico fl bg"></i>
+                                        <i class="star_ico fl bg"></i>
+                                        <i class="star_ico fl bg"></i>
+                                    </span>
+                                </div>
+                                <div class="area mt16">
+                                    <a href="" class="fl">劲松、潘家园地区</a>
+                                    <a href="" class="fl">朝阳区</a>
+                                </div>
+                                <div class="score mt11">
+                                    <a href="" class="score_info fl">4.9分</a>
+                                    <span class="score_line fl"></span>
+                                    <a href="" class="score_text fl">来自930人点评</a>
+                                </div>
+                                <div class="review mt15">“之前在老家住过桔子，但是和这边的逼格完全不一样。完全就是提升了好几个档次。服务生的态度超级好。最棒的就是走廊的镜子，今天臭美超镜子差点撞”</div>
+                            </div>
+                            <div class="hotel_price fr">
+                                <div class="price_info">
+                                    <span class="rmb fl">￥</span>
+                                    <span class="jiage fl">599</span>
+                                    <span class="qi fl">起</span>
+                                </div>
+                                <div class="destine mt20">最新预定：4小时前</div>
+                            </div>
+                        </li>
+                        <li class="hotel_list fl none_bor">
+                            <div class="hotel_pic fl mr10">
+                                <a href="" class="show_pic fl">
+                                    <img src="img/hotel7.jpg">
+                                </a>
+                            </div>
+                            <div class="hotel_detail fl">
+                                <div class="hotel_name">
+                                    <i class="small_web one bg mr10 fl"></i>
+                                    <a href="" class="hotel_name_info mr19 fl">北京四季酒店</a>
+                                    <span class="star_level fl">
+                                        <i class="star_ico fl bg"></i>
+                                        <i class="star_ico fl bg"></i>
+                                        <i class="star_ico fl bg"></i>
+                                        <i class="star_ico fl bg"></i>
+                                    </span>
+                                </div>
+                                <div class="area mt16">
+                                    <a href="" class="fl">燕莎、三里屯商业区</a>
+                                    <a href="" class="fl">东直门、工体、雍和宫地区</a>
+                                </div>
+                                <div class="score mt11">
+                                    <a href="" class="score_info fl">4.8分</a>
+                                    <span class="score_line fl"></span>
+                                    <a href="" class="score_text fl">来自4711人点评</a>
+                                </div>
+                                <div class="review mt15">“服务挺好环境也好”</div>
+                            </div>
+                            <div class="hotel_price fr">
+                                <div class="price_info">
+                                    <span class="rmb fl">￥</span>
+                                    <span class="jiage fl">专享价</span>
+                                </div>
+                                <div class="destine mt20">最新预定：2小时前</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="more_sale">
+                    <header class="more_title">
+                        <h3 class="more_head fl">更优惠酒店集团</h3>
+                        <a href="" class="head_more fr">更多<i class="all_arrow bg"></i></a>
+                    </header>
+                    <div class="group">
+                        <a href="" class="left_ico fl"><i class="left bg"></i></a>
+                        <ul class="group_list fl">
+                            <li class="group_pic fl mr20">
+                                <a href="" class="group_info fl">
+                                    <img src="img/bt1.jpg">
+                                    铂涛
+                                </a>
+                            </li>
+                            <li class="group_pic fl mr20">
+                                <a href="" class="group_info fl">
+                                    <img src="img/bt1.jpg">
+                                    铂涛
+                                </a>
+                            </li>
+                            <li class="group_pic fl mr20">
+                                <a href="" class="group_info fl">
+                                    <img src="img/bt1.jpg">
+                                    铂涛
+                                </a>
+                            </li>
+                            <li class="group_pic fl mr20">
+                                <a href="" class="group_info fl">
+                                    <img src="img/bt1.jpg">
+                                    铂涛
+                                </a>
+                            </li>
+                            <li class="group_pic fl mr20">
+                                <a href="" class="group_info fl">
+                                    <img src="img/bt1.jpg">
+                                    铂涛
+                                </a>
+                            </li>
+                            <li class="group_pic fl mr20">
+                                <a href="" class="group_info fl">
+                                    <img src="img/bt1.jpg">
+                                    铂涛
+                                </a>
+                            </li>
+                            <li class="group_pic fl mr20">
+                                <a href="" class="group_info fl">
+                                    <img src="img/bt1.jpg">
+                                    铂涛
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="" class="right_ico fr"><i class="right bg"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="entry">
+            <div class="weekend">
+                <a href="" class="fl"><img src="img/chao.jpg"></a>
+                <a href="" class="fr"><img src="img/chao1.jpg"></a>
+            </div>
+            <div class="web_link">
+                <h4 class="link_head mt11">携程酒店官网提供酒店预订及价格查询</h4>
+                <p class="link_info">
+                    携程酒店官网为您提供国内1300个城市酒店预订及价格查询，包括全球200多个国家，5万个城市的酒店预订服务，国内外超过25万家的酒店、宾馆、旅社、客栈、经济连锁、酒店公寓、青年旅社等住宿信息，覆盖酒店图片、房间照片、酒店电话、酒店地址以及真实用户的酒店点评等。网上预订携程神秘特价酒店，还可体验不可思议低价惊喜。
+                </p>
+                <dl class="hot_city mt4">
+                    <dt class="hot_head fl">热门城市</dt>
+                    <dd class="city_list fl"><a href="" class="fl">北京酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">上海酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">广州酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">深圳酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">南京酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">杭州酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">成都酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">厦门酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">青岛酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">三亚酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">香港酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">澳门酒店</a></dd>
+                </dl>
+                <dl class="hot_city">
+                    <dt class="hot_head fl">热门景点</dt>
+                    <dd class="city_list fl"><a href="" class="fl">西塘酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">乌镇酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">鼓浪屿酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">朱家尖酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">普陀山酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">千岛湖酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">涠洲岛酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">嵊泗酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">泸沽湖酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">莫干山酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">南浔酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">北戴河酒店</a></dd>
+                </dl>
+                <dl class="hot_city">
+                    <dt class="hot_head fl">省份酒店</dt>
+                    <dd class="city_list fl"><a href="" class="fl">安徽酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">福建酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">甘肃酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">广东酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">广西酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">贵州酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">海南酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">河北酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">黑龙江酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">河南酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">湖北酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">湖南酒店</a></dd>
+                </dl>
+                <dl class="hot_city">
+                    <dt class="hot_head fl">品牌推荐</dt>
+                    <dd class="city_list fl"><a href="" class="fl">7天连锁酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">如家快捷酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">汉庭酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">锦江之星</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">香格里拉酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">格林豪泰</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">莫泰168</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">布丁酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">桔子酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">希尔顿</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">凯宾斯基</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">皇冠假日酒店</a></dd>
+                </dl>
+                <dl class="hot_city">
+                    <dt class="hot_head fl">快速入口</dt>
+                    <dd class="city_list fl"><a href="" class="fl">酒店导航</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">品牌酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">酒店大全</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">国家酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">热门酒店</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">景区酒店大全</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">城市酒店大全</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">客栈通PMS</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">eBooking</a></dd>
+                    <dd class="city_list fl"><a href="" class="fl">礼品卡</a></dd>
+                </dl>
+                <dl class="book">
+                    <dt class="book_head fl">最新预定</dt>
+                    <dd class="book_list fl"><a href="" class="book_info fl">绍兴饭店文澜商务酒店在9分钟前被预定</a></dd>
+                    <dd class="book_list fl"><a href="" class="book_info fl">苏州左岸明珠酒店在9分钟前被预订</a></dd>
+                    <dd class="book_list fl"><a href="" class="book_info fl">贵阳喜百年酒店在3分钟前被预订</a></dd>
+                    <dd class="book_list fl"><a href="" class="book_info fl">北京德胜门华宇假日酒店在1分钟前被预订</a></dd>
+                </dl>
+            </div>
+        </div>
+    </section>
+    <!--页脚-->
+    <footer class="foot">
+        <div class="friend_link clearfix">
+            <a href="" class="link_name fl">网站导航</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">宾馆索引</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">机票索引</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">旅游索引</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">商旅索引</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">攻略索引</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">关于携程</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">企业公民</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">诚聘英才</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">智慧旅游</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">分销联盟</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">代理合作</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">企业商旅</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">中小企业差旅</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">广告业务</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">联系我们</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">加盟合作</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">酒店加盟</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">目的地及景区合作</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">服务说明</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">营业执照</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">旅游度假资质</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">保险代理</a>
+            <span class="foot_line fl"></span>
+            <a href="" class="link_name fl">友情链接</a>
+            <span class="foot_line fl"></span>
+            <span class="copy fl">Copyright©1999-2016,ctrip.com.All rights reserved.|ICP证：沪B2-20050130</span>
+        </div>
+        <div class="net">
+            <span class="net_info"><i class="police_ico bg"></i>沪公网备31010502000018号</span>
+        </div>
+        <div class="web_info clearfix">
+            <a href="" class="credit bg"></a>
+            <a href="" class="credit second bg"></a>
+            <a href="" class="credit third bg"></a>
+            <a href="" class="credit fourth bg"></a>
+            <a href="" class="credit fifth bg"></a>
+            <a href="" class="credit sixth bg"></a>
+            <a href="" class="credit seventh bg"></a>
+        </div>
+    </footer>
